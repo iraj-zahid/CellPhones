@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Young+Serif&display=swap');
+
 .App {
   text-align: center;
 }
@@ -21,11 +26,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(83, 83, 83, 0.788);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #7c7c7c;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +40,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+.oswald{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.imgTwo{
+  background-image: url(../public/icons8-search-30.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imgThree{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  object-fit: fill
+}
+.search{
+  /* display: none; */
+  /* visibility: hidden; */
+  background-color: transparent;
+  color: aliceblue;
+}
+.search:focus{
+  outline: none;
+  color: #999999;
+}
+.hoverOne:hover{
+  background-color: #c5c5c517;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.hoverTwo:hover{
+  background-color: #ffffff2c;
+  cursor: pointer;
+}
+.filterButton{
+  background: linear-gradient(to bottom, #3333cc 0%, #cc00cc 100%);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filterButton:hover{
+  background: linear-gradient(to bottom, #3333cc 0%, #f70ff7 100%);
+
+}
+.bgcolorOne{
+  background: linear-gradient(to bottom, #2c2c2c 0%, #4d4d4d 100%);
+
+}
+.ratingHover:hover{
+  background-color: #4d4d4d;
+  cursor: pointer;
+}
+.bgThree{
+  /* background-color: #cc00cc54; */
+  background-image: radial-gradient(red, rgba(5, 5, 5, 0.747), rgba(0, 0, 0, 0.5));
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

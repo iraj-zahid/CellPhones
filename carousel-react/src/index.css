@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,10 +10,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    background-color: #aaaaaaf6 18, 18);
-}
-.imgOne{
-  background-image: url(../public/icons8-mobile-shopping-64.png);
-  background-position: center;
-  background-repeat: no-repeat;
 }
